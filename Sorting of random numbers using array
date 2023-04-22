@@ -4,7 +4,6 @@ void main()
 {
     FILE *fp;
     int r,a[100],temp;
-    time_t start,stop;
     fp=fopen("array.txt","w+");        //OPENING THE FILE TO READ AND WRITE THE INTO IT
     for(int i=0;i<100;i++)
     {
