@@ -17,14 +17,6 @@ void main()
         fscanf(fp,"%d",&a[i]);              //INITIALIZING THE INTERGERS IN THE FILE TO THE ARRAY
     }
     fclose(fp);
-    fp=NULL;
-    fp=fopen("array1.txt","w");
-
-    if(fp==NULL)
-    {
-        printf("file not created");
-        exit(0);
-    }
     for(int i=0;i<99;i++)
     {
         for(int j=0;j<99-i;j++)
@@ -37,5 +29,4 @@ void main()
             }
         }
     }
-    fclose(fp);
 }
