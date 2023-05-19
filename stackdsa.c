@@ -22,7 +22,6 @@ void push(FILE *fp1,FILE *fp2,FILE *fp3)
     }
     for(int i=0;i<=top;i++)
     {
-        //printf("%d ",stack[i]);
         fprintf(fp2,"%d\n",stack[i]);
     }
     fclose(fp2);
@@ -52,7 +51,6 @@ main()
 
     int r,flag=1,ch;
     fp1=fopen("random.txt","w+");
-
     fp3=fopen("push.txt","w+");
     fp4=fopen("pop.txt","w+");
     fp5=fopen("operation.txt","w+");
